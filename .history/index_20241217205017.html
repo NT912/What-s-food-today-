@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danh sách món ăn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>📋 Danh sách món ăn 🍜</h1>
+    <ul id="foodList"></ul>
+
+    <div class="controls">
+      <input type="text" id="foodInput" placeholder="Thêm món ăn mới...">
+      <button onclick="addFood()">➕ Thêm</button>
+    </div>
+
+    <button onclick="pickRandomFood()" class="random-btn">🎲 Chọn món ngẫu nhiên</button>
+    <p id="randomFood"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

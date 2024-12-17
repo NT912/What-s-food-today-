@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Món Ăn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Random Section -->
+  <div class="container">
+    <h1>🎲 Hôm nay ăn gì? 🎲</h1>
+    <button id="randomBtn" onclick="startRandom()">🍽️ Chọn món ngay</button>
+    <p id="randomFood">...</p>
+  </div>
+
+  <!-- Edit Button -->
+  <button class="edit-btn" onclick="openPopup()">📝 Chỉnh sửa danh sách</button>
+
+  <!-- Random Section -->
+  <div class="container">
+    <h1>🎲 Hôm nay ăn gì? 🎲</h1>
+    <button id="randomBtn" onclick="startRandom()">🍽️ Chọn món ngay</button>
+    <p id="randomFood">...</p>
+  </div>
+
+  <!-- Popup chúc mừng kết quả -->
+  <div id="resultPopup">
+    <div class="result-content" id="resultPopupContent">
+      <!-- Nội dung kết quả -->
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
