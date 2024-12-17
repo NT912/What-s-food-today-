@@ -1,8 +1,3 @@
-# 🌟 Hôm Nay Ăn Gì? 🌟
-**Dự án này được tạo ra với tất cả tình yêu của Trường dành cho em bé.** 💛
-
----
-
 ## ❤️ Gửi Em Bé
 **Em bé à**,  
 Dự án nhỏ bé này là một phần tình yêu của anh dành cho em bé.  
@@ -27,11 +22,3 @@ anh đều viết bằng tất cả trái tim và tình yêu dành cho em bé. �
 1. Mở trang web và bấm vào nút **"Chọn món ngay"** để xem món ăn hôm nay là gì.
 2. Nhấn vào nút **"Chỉnh sửa danh sách"** để thêm hoặc xóa món ăn theo ý thích của mình.
 3. Thưởng thức món ăn cùng anh và nhớ mỉm cười thật tươi nha, em bé! 😊
-
----
-
-## 🎉 Kết Luận
-Nếu em bé thích dự án này, hãy cùng anh khám phá thật nhiều món ăn ngon nhé!  
-Còn nếu hôm nay vẫn chưa biết ăn gì... thì chỉ cần click một cái thôi! 🍜  
-
-> *"Món ăn ngon nhất không phải vì hương vị, mà vì có em bé ngồi bên cạnh."*  
