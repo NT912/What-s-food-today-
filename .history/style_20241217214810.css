@@ -140,10 +140,10 @@ h1 {
 
 .result-content .close-btn {
   position: absolute;
-  top: 3px;
-  right: 3px;
-  font-size: 18px;
-  color: #d84315;
+  top: 5px; /* Dịch lên trên một chút */
+  right: 5px; /* Dịch sang phải một chút */
+  font-size: 18px; /* Giảm kích thước nút tắt */
+  color: #d84315; /* Màu nút giữ nguyên */
   cursor: pointer;
   transition: transform 0.2s;
 }

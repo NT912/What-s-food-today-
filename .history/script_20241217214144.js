@@ -69,8 +69,8 @@ function showResultPopup(food) {
 
   popup.style.display = "flex";
 
-  // Thêm sự kiện click để đóng popup khi click ra ngoài
-  popup.onclick = function (event) {
+  // Đóng popup khi click ra ngoài vùng popup
+  window.onclick = function (event) {
     if (event.target === popup) {
       closeResultPopup();
     }

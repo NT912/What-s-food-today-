@@ -63,14 +63,15 @@ function showResultPopup(food) {
   const popupContent = document.getElementById("resultPopupContent");
 
   popupContent.innerHTML = `
+        <span class="close-btn" onclick="closeResultPopup()">❌</span>
         🎉 Chúc mừng! Món ăn hôm nay là: <br>
         <strong>${food}</strong> 🎉
     `;
 
   popup.style.display = "flex";
 
-  // Thêm sự kiện click để đóng popup khi click ra ngoài
-  popup.onclick = function (event) {
+  // Đóng popup khi click ra ngoài vùng popup
+  window.onclick = function (event) {
     if (event.target === popup) {
       closeResultPopup();
     }
@@ -79,7 +80,7 @@ function showResultPopup(food) {
 
 function closeResultPopup() {
   document.getElementById("resultPopup").style.display = "none";
-  window.onclick = null;
+  window.onclick = null; // Xóa sự kiện click
 }
 
 function getRandomColor() {
@@ -136,7 +137,7 @@ function openPopup() {
 
 function closePopup() {
   document.getElementById("popup").style.display = "none";
-  window.onclick = null;
+  window.onclick = null; // Xóa sự kiện click ra ngoài
 }
 
 window.onload = () => {

@@ -115,8 +115,8 @@ h1 {
 /* Popup kết quả */
 .result-content {
   background: #fff8e1; /* Vàng nhạt */
-  padding: 20px;
-  border-radius: 12px;
+  padding: 250px;
+  border-radius: 15px;
   text-align: center;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   font-size: 22px;
@@ -140,9 +140,9 @@ h1 {
 
 .result-content .close-btn {
   position: absolute;
-  top: 3px;
-  right: 3px;
-  font-size: 18px;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
   color: #d84315;
   cursor: pointer;
   transition: transform 0.2s;

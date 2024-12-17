@@ -68,13 +68,6 @@ function showResultPopup(food) {
     `;
 
   popup.style.display = "flex";
-
-  // Thêm sự kiện click để đóng popup khi click ra ngoài
-  popup.onclick = function (event) {
-    if (event.target === popup) {
-      closeResultPopup();
-    }
-  };
 }
 
 function closeResultPopup() {
